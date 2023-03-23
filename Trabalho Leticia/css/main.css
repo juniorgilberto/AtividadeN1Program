@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #181823;
+    color: #181823;
+    box-sizing: border-box;
+}
+
+/* ESTILIZAÇÃO CABEÇALHO E MENU DE NAVEGAÇÃO*/
+.cabecalho {
+    width: 100%;
+    height: 100px;
+    background-color: #181823;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo {
+    width: 200px;
+}
+nav ul{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li{
+    list-style-type: none;
+    text-align: center;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+nav ul li a:hover{
+    background-color: #0098DA;
+    color: #181823;
+    transition: 0.5s;
+
+
+}
+/* FIM ESTILIZAÇÃO CABEÇALHO E MENU DE NAVEGAÇÃO*/
+
+/* ESTILIZAÇÃO CORPO DO SITE*/
+
+main{ 
+    width: 90%;
+    margin: 0 5% 0 5%;
+    background-color: #0098DA;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.imagem-principal {
+    width: 50%;
+    border-radius: 10px;
+    border: 15px solid #181823;
+    margin: 5px;
+}
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.articles article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.articles .imagem-padrao {
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    border: 10px solid #181823;
+    margin: 5px;
+}
+.articles article a {
+    text-decoration: none;
+    color: #181823;
+    padding: 15px;
+    border: 1px solid #181823;
+    border-radius: 10px;
+
+}
+.articles article a:hover {
+    color: #0098DA;
+    background-color: #181823;
+    transition: 0.5s;
+}
+
+/* FIM ESTILIZAÇÃO CORPO DO SITE*/
+
+
+/* ESTILIZAÇÃO RODAPÉ*/
+footer {   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    background-color: #181823;
+    color: white;
+    
+}
+
+/* FIM ESTILIZAÇÃO RODAPÉ*/
